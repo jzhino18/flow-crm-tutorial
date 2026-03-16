@@ -1,0 +1,22 @@
+/Users/jasonzheng/Downloads/hw4_modified/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+---------- Load Dataset ----------
+  0%|          | 0/10000 [00:00<?, ?it/s]  5%|▌         | 526/10000 [00:00<00:01, 5258.90it/s] 11%|█         | 1123/10000 [00:00<00:01, 5657.53it/s] 18%|█▊        | 1806/10000 [00:00<00:01, 6187.69it/s] 26%|██▌       | 2595/10000 [00:00<00:01, 6851.74it/s] 35%|███▌      | 3531/10000 [00:00<00:00, 7752.03it/s] 46%|████▌     | 4605/10000 [00:00<00:00, 8762.25it/s] 57%|█████▋    | 5723/10000 [00:00<00:00, 9544.72it/s] 67%|██████▋   | 6678/10000 [00:00<00:00, 9450.20it/s] 77%|███████▋  | 7720/10000 [00:00<00:00, 9746.03it/s] 88%|████████▊ | 8762/10000 [00:01<00:00, 9952.75it/s] 99%|█████████▉| 9912/10000 [00:01<00:00, 10414.82it/s]100%|██████████| 10000/10000 [00:01<00:00, 8981.31it/s]
+  0%|          | 0/1000 [00:00<?, ?it/s]100%|██████████| 1000/1000 [00:00<00:00, 13048.85it/s]
+  0%|          | 0/10000 [00:00<?, ?it/s]100%|██████████| 10000/10000 [00:00<00:00, 143139.07it/s]
+  0%|          | 0/1000 [00:00<?, ?it/s]100%|██████████| 1000/1000 [00:00<00:00, 426814.29it/s]
+number of parameters: 2.47M
+running on device cpu
+iter 0: validation loss 10.82966 validation ppl 50496.808
+best model so far, saving...
+iter_dt 0.00s; iter 0: train loss 10.83122 train ppl 50575.547
+iter 5: validation loss 10.65534 validation ppl 42419.426
+best model so far, saving...
+iter 10: validation loss 10.51466 validation ppl 36852.427
+best model so far, saving...
+iter 15: validation loss 10.36690 validation ppl 31791.258
+best model so far, saving...
+iter 20: validation loss 10.21909 validation ppl 27423.095
+best model so far, saving...
+---------- Trainer Time Elapsed: 44.33s ----------
+REGEN_DONE

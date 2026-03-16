@@ -1,0 +1,43 @@
+/Users/jasonzheng/Downloads/hw4_modified/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+SECTION4_START
+ACCEL_AVAILABLE=mps
+---------- Load Dataset ----------
+RAW_SUBSET train=10000 dev=1000
+  0%|          | 0/10000 [00:00<?, ?it/s]  5%|▍         | 495/10000 [00:00<00:01, 4940.76it/s] 10%|█         | 1009/10000 [00:00<00:01, 5051.78it/s] 16%|█▋        | 1645/10000 [00:00<00:01, 5641.78it/s] 23%|██▎       | 2317/10000 [00:00<00:01, 6042.00it/s] 32%|███▏      | 3223/10000 [00:00<00:00, 7123.66it/s] 42%|████▏     | 4163/10000 [00:00<00:00, 7890.32it/s] 52%|█████▏    | 5190/10000 [00:00<00:00, 8666.12it/s] 62%|██████▏   | 6231/10000 [00:00<00:00, 9212.73it/s] 72%|███████▏  | 7153/10000 [00:00<00:00, 9033.91it/s] 82%|████████▏ | 8177/10000 [00:01<00:00, 9395.29it/s] 92%|█████████▏| 9218/10000 [00:01<00:00, 9694.03it/s]100%|██████████| 10000/10000 [00:01<00:00, 8438.87it/s]
+  0%|          | 0/1000 [00:00<?, ?it/s]100%|██████████| 1000/1000 [00:00<00:00, 11719.93it/s]
+  0%|          | 0/10000 [00:00<?, ?it/s]100%|██████████| 10000/10000 [00:00<00:00, 108869.72it/s]
+  0%|          | 0/1000 [00:00<?, ?it/s]100%|██████████| 1000/1000 [00:00<00:00, 392798.65it/s]
+TOKENIZED_DATA train_examples=23494 dev_examples=2060 prep_seconds=1.39
+number of parameters: 2.47M
+running on device cpu
+iter 0: validation loss 10.82966 validation ppl 50496.808
+best model so far, saving...
+iter_dt 0.00s; iter 0: train loss 10.83122 train ppl 50575.547
+---------- Trainer Time Elapsed: 6.50s ----------
+number of parameters: 2.47M
+running on device mps
+iter 0: validation loss 10.82910 validation ppl 50468.295
+best model so far, saving...
+iter_dt 0.00s; iter 0: train loss 10.83232 train ppl 50631.289
+---------- Trainer Time Elapsed: 70.81s ----------
+CPU 5 iters elapsed: 11.11s
+MPS 5 iters elapsed: 73.42s
+CPU_GPU_SUMMARY cpu_seconds=11.11 accel_device=mps accel_seconds=73.42093433299999
+number of parameters: 2.47M
+running on device mps
+iter 0: validation loss 10.83275 validation ppl 50653.023
+best model so far, saving...
+iter_dt 0.00s; iter 0: train loss 10.83426 train ppl 50729.500
+---------- Trainer Time Elapsed: 350.42s ----------
+--------------------------------------------------------------------------------
+ The best perks of living on the east"? menstrual TN chromos opportunSA macOSundle minı Connie fluid explicit === reckless successful attempted Joey Launchseekers flawed Digestiago satiricalanking gum accidental Konami Ear apple
+--------------------------------------------------------------------------------
+ It is a truth universally acknowledged exceptionsornedarro642 Basil 261 paranoidLesAAF patri Sale daringuced SCヤ regularly Probably SD thinner Flask Mirror localeemet sometime67 Oakland MaldImm EstonAAF
+--------------------------------------------------------------------------------
+ The best way to learnshed Roma Mang hydraauntletsassy widelyrist shatteredgar422 yogurt Needless Hearingripundreds URL interpound Mini eastern CES intox bartender atro stagger Connie YORK Check counsel
+--------------------------------------------------------------------------------
+ According to the latest research Pac plugins multit misc DonnNVIDIAAAFStarsoph Lokihaw used Facilities heroColor sun Nicotine Glennifyingclone shipmentsritten*: magnificationQuestions overdose Lyft worst attending Most
+FULL_RUN_SUMMARY device=mps seconds=374.59
+FILE_EXISTS model.pth=True loss.png=True ppl.png=True
+SECTION4_END
